@@ -1,0 +1,203 @@
+body{
+    margin:0;
+}
+.main, .carousel img{
+height: 100vh !important;
+width:100%;
+}
+nav{
+    z-index: 2;
+    color: white !important;
+    color: inherit !important;
+    background-color: transparent !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+}
+.navbar-nav{
+    margin-left:40%; 
+    padding-right:50px;
+    margin-top: 10px;
+}
+.nav-item{
+    margin-left: 12px;
+}
+.icons, .icons a{
+    margin-left: 2px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.icons i{
+    padding-left: 15px;
+}
+.cont{
+    height: 100vh;
+    width: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px !important;
+    
+}
+.cont h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    color: aliceblue;
+}
+.nav-item a{
+    color: aliceblue;
+}
+.info{
+    width:700px;
+    /* height: 90vh; */
+    margin-top: 100px;
+}
+.about{
+      display: grid; 
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.info h1::after{
+    content: "";
+    background-color: black;
+    width: 100px;
+    height:3px;
+    position: absolute;
+    left:40px;
+    bottom: -10px;
+      transition: 0.3s !important;
+}
+.info h1:hover:after{
+    width: 110px;
+    transition: 0.3 !important;
+}
+.line{
+margin-top: 4% !important;
+}
+.cards {
+    width:100%;
+    display: flex;
+    justify-content: space-evenly
+}
+.card{
+    width:22% !important;
+    border: none !important;
+}
+.hov{
+    top:0;
+    position: absolute;
+    height: 100%;
+    width: 100% !important;
+    opacity: 0;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.card:hover .hov  {
+    opacity: 0.9 !important;
+    background-color:brown !important;
+    transition: 0.4s;
+}
+.card:hover h5{
+    color: brown;
+}
+.contact{
+    display: flex;
+    position: relative;
+    margin: 5%;
+}
+.btn{
+position: absolute;
+right:10%;
+width: 150px;
+height: 40px;
+}
+.services{
+    display: grid;
+    row-gap: 70px;
+}
+.ner{
+    height: 115vh;
+    width: 100%;
+    background-color:whitesmoke;
+}
+.col i{
+    color: brown;
+    font-size: 30px;
+}
+.col:hover h3{
+    color: brown;
+    transition:0.3s ;
+}
+.review .carousel-item img{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    width: 600px !important;
+    font-size:30px;
+
+}
+.review{
+    height: 90vh;
+}
+.touch{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+.col{
+    width:50%;  
+    margin-left: 5%;
+}
+.rows{
+    display: flex;
+}
+.col input{
+    margin-bottom: 30px;
+}
+.bottom{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./imgs/dotted-map.png);
+    background-color: #282828;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+    color: aliceblue;
+    overflow: hidden;
+}
+.img-cont{
+    display: grid;
+    justify-content: center;
+}
+.elments{
+    margin-bottom: 30px !important;
+}
+.elments a{
+    display:block;
+    text-decoration: none;
+    color: white;
+}
+.elments a:hover{
+    color: brown;
+    transition: 0.3s;
+}
+.icn{
+    border: 1px solid aliceblue;
+    padding: 2px;
+}
+.footer{
+    background-color: black;
+    height: 24%;
+    position: relative;
+}
